@@ -9,25 +9,17 @@
 </head>
 
 <body>
+    <button id="btn">on click</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum delectus numquam, quaerat in doloribus magnam, architecto, ducimus ea mollitia voluptas saepe a impedit sed nemo harum inventore odit voluptatibus! Repellat.</p>
 
-    <table border="">
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Password</th>
-        </tr>
-        <tr>
-            <td colspan="2">Demo</td>
-            <td>Demo@gmail.com</td>
-            <td>123</td>
-        </tr>
-        <tr>
-            <td>Demo</td>
-            <td>Demo@gmail.com</td>
-            <td>123</td>
-        </tr>
-    </table>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btn').on('click', function () {
+                $('p').hide();
+            });
+        });
+    </script>
 </body>
 
 </html>
