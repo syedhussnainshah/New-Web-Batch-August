@@ -1,0 +1,18 @@
+.head{
+    background-color: yellow;
+  }
+  #head{
+    background-color: pink;
+  }  .head{
+    background-color: blue;
+  }
+  #head{
+background-color: rgb(113, 17, 33);
+color: white;
+/* letter-spacing: 20px; */
+word-spacing: 10px;
+
+}
+.para{
+font-weight: 400;
+}
