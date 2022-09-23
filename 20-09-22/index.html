@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    .parent{
+      background-color: yellow;
+      padding: 3px;
+      height: 100vh;
+      display: flex;justify-content: center;align-items: center;
+    }
+    ul{
+      background-color: blue;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    li{
+      list-style: none;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      transition: all 1s linear;
+      transform: rotateY(0deg);
+    }
+    li:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      transform: rotateY(360deg);
+      transition: all 0.5s linear;
+    }
+  </style>
+  <div class="parent">
+    <ul>
+      <li>Home </li>
+      <li>ABout</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</body>
+
+</html>
